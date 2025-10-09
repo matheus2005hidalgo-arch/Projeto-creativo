@@ -51,7 +51,51 @@ section {
 .home{
     display: flex;
     gap: 70px;
+    justify-content: space-between;
+    align-items: center;
 
+    & .content{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
 
+        & h1{
+            color:#1f1f39;
+            font-size: 70px;
+            font-weight: 700;
+        }
+
+        & p{
+            font-weight: 400;
+            line-height: 48px;
+            color:#1f1f39b2;
+            }
+
+        & button{
+            width:246.49px;
+            padding: 10.87px;
+            border-radius: 10.87;
+            border: none;
+            background: #1f1f39;
+
+            font-size: 24.24px;
+            font-weight: 700;
+            color:#fff;
+        }        
+    }
 
 }
+.portfogio{
+    & h2{
+        width:1019px;
+        height: 120px;
+       font-size: 40px;
+       
+    }
+}
+
+
+
+
+
